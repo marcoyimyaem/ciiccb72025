@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Constructor1Lesson",
+            "request": "launch",
+            "mainClass": "chapter1.Constructor1Lesson",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "Fruit4",
+            "request": "launch",
+            "mainClass": "chapter1.Fruit4",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "InstanceIniLesson",
+            "request": "launch",
+            "mainClass": "chapter1.InstanceIniLesson",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "chapter1.Main",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "Name",
+            "request": "launch",
+            "mainClass": "chapter1.Name",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceLesson",
+            "request": "launch",
+            "mainClass": "chapter1.ReferenceLesson",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "Toy",
+            "request": "launch",
+            "mainClass": "chapter1.Toy",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "ClassA",
+            "request": "launch",
+            "mainClass": "otherFolder.ClassA",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "SunFlower",
+            "request": "launch",
+            "mainClass": "otherFolder.SunFlower",
+            "projectName": "ciiccb72025_16eb1997"
+        }
+    ]
+}
