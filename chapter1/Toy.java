@@ -7,10 +7,10 @@ package chapter1;
  */
 
 public class Toy{
-    String name;
-    String brand;
-    double price;
-    int quantity;
+    public String name;
+    public String brand;
+    public double price;
+    public int quantity;
 
     void setPrice(double price){
         this.price = price;

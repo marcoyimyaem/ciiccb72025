@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OperatorsLesson",
+            "request": "launch",
+            "mainClass": "chapter2.OperatorsLesson",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
             "name": "Scope",
             "request": "launch",
             "mainClass": "chapter1.Scope",
