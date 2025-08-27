@@ -26,5 +26,6 @@ public class OperatorsLesson{
        // F | T  T || T 
        Toy toy1 = null;
        System.out.println(toy1!=null && toy1.price>=5);
+       
        }
 }
