@@ -24,5 +24,9 @@ public class StringLesson {
         System.out.println(word1);
         String trimSample = "       \t \n \t Marc Yim          \t \n";
         System.out.println(trimSample.trim());
+        StringBuilder sb = new StringBuilder();
+        for(char current ='a'; current <='z';current ++ )
+            sb.append(current);
+        System.out.println(sb);
     }
 }
