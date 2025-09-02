@@ -20,11 +20,17 @@ public class ArrayLesson {
         for(String numberString: numbersString)
             System.out.print(numberString+", ");
         System.out.println("\n"+stringSearch+" search result: "+ Arrays.binarySearch(numbersString, stringSearch));
-        int[][] diffsize = { {1,2}, //[0]
+        byte[][] diffsize = { {1,2}, //[0]
                                 {3}, //[1]
                                 {9,8,7} //[2]
                             };
         System.out.println(diffsize[2][2]);
+        for(byte a=0;a<diffsize.length;a++){
+            for(byte b=0;b<diffsize[a].length;b++){
+                System.out.print(diffsize[a][b]+",");
+            }
+            System.out.println();
+        }
 }//  1  2  3 4 5 6
  //  0  1  2 3 4 5
  //-1 -2 -3
