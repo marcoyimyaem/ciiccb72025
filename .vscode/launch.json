@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Tester",
+            "request": "launch",
+            "mainClass": "otherFolder.tasker.Tester",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "Task4",
+            "request": "launch",
+            "mainClass": "otherFolder.tasker.Task4",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "DatesAndTimeLesson",
+            "request": "launch",
+            "mainClass": "chapter3.DatesAndTimeLesson",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
             "name": "ArrayListLesson",
             "request": "launch",
             "mainClass": "chapter3.ArrayListLesson",
