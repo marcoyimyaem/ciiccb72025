@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Task5",
+            "request": "launch",
+            "mainClass": "otherFolder.tasker.Task5",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
             "name": "Tester",
             "request": "launch",
             "mainClass": "otherFolder.tasker.Tester",
