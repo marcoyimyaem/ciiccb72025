@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReturnType",
+            "request": "launch",
+            "mainClass": "chapter4.ReturnType",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
             "name": "Task5",
             "request": "launch",
             "mainClass": "otherFolder.tasker.Task5",
