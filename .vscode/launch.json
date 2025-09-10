@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConstructorLesson",
+            "request": "launch",
+            "mainClass": "chapter4.ConstructorLesson",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
+            "name": "InitializationOrderSimple",
+            "request": "launch",
+            "mainClass": "chapter4.InitializationOrderSimple",
+            "projectName": "ciiccb72025_16eb1997"
+        },
+        {
+            "type": "java",
             "name": "VarArgsLesson",
             "request": "launch",
             "mainClass": "chapter4.VarArgsLesson",
