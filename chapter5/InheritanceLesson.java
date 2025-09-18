@@ -1,5 +1,7 @@
 package chapter5;
 
+import java.util.*;
+
 public class InheritanceLesson{
     public static void main(String[] args) {
         FinalParent p1 = new FinalParent();
@@ -58,8 +60,13 @@ class Canine{
     public double getAverageWeight(){
             return 50;
      }
+     
+     
+
 }
 class Pug extends Canine{
+    
+    
     public double getAverageWeight(){
         this.hasFangs = false;
         System.out.println("Pug: "+hasFangs+"\nCanine: "+super.hasFangs);
@@ -79,7 +86,7 @@ class Wolf extends Canine{
     System.out.println(new Wolf().getAverageWeight());
     System.out.println(new Pug().getAverageWeight());
     Hayop h1 =  new Dog();
-     System.out.println(CanBurrow2.isInWater());
+    System.out.println(CanBurrow2.isInWater());
     
  }
 }
@@ -93,6 +100,7 @@ abstract class Hayop{
     public abstract String getName();
     abstract int getAge();
     abstract void setAge(int age);
+    abstract List<Double> CanineList(String n);
 }
 abstract class Mammal extends Hayop{
     
@@ -112,6 +120,16 @@ class Dog extends Mammal{
     public void setAge(int age){
         
     }
+    // @Override // error
+    // List<Object> CanineList(String n) {
+    //     return null;
+    // }
+    @Override
+    List<Double> CanineList(String n) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'CanineList'");
+    }
+    
 
 }
 abstract interface CanBurrow{
@@ -146,4 +164,9 @@ class FieldMouse extends Hayop implements CanBurrow,CanBurrow2{
     @Override
     void setAge(int age) {
         }
+    @Override
+    List<Double> CanineList(String n) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'CanineList'");
+    }
 }
